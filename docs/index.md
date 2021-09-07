@@ -27,6 +27,7 @@ Here's the output result of the code for base attributes:
 | Euro | 4200 |
 | Honey | 4200 |
 | Nevadensis | 4200 |
+| Vietnam | 4200 |
 
 ## Number of Attributes
 This distribution is a combination of maximum possible and normal distribution.
