@@ -6,7 +6,7 @@ _Note: My idea about colors is to choose randomly at first and let the owner dec
 
 So, here's my idea in detail and how the code helps distribution:
 
-I haven't access to the attributes, so I created a database by myself. The [Attributes Excel file](/Attributes.xlsx) is a pure database including 5 Base Types and 63 attributes along with their 6 Categories, Count (that is zero at first), Maximum possible, and Rarity (if the attribute is rare or not).
+I haven't access to the attributes, so I created a database by myself. The [Attributes Excel file](Attributes.xlsx) is a pure database including 5 Base Types and 63 attributes along with their 6 Categories, Count (that is zero at first), Maximum possible, and Rarity (if the attribute is rare or not).
 
 In general, the proposal includes three different distribution ways:
 - The maximum limit for rare things
@@ -74,7 +74,7 @@ There are 21 rare NFTs (0.1% of total). Consider that there are 6 categories but
 
 The other 17 rare NFTs doesn't have crown and 6 categories but could have items from both head and hair categories. They have at least two jewelry items and the other 3 attributes chose by a uniform distribution from the table above.
 
-The first 21 rows of [NFTs Excel file](/NFTs.xlsx) are rare NFTs produced by the code.
+The first 21 rows of [NFTs Excel file](NFTs.xlsx) are rare NFTs produced by the code.
 
 _P.S.:_ The other jewelry items for not rare NFTs (remaining Tiara, Chandelier and Necklace) could be simply gold.
 
@@ -84,6 +84,7 @@ _P.S.:_ The other things about rare items is **diversity**! Only rare NFTs could
 Lastly, we can see number of each attributes on each category:
 
 #### Head Category:
+
 | Attributes |	Category |	Count |
 | --- | --- | --- |
 |	Bandana |	Head	| 675 |
@@ -107,6 +108,7 @@ Overall: 9968 in _Head Category_
 
 
 #### Hair Category:
+
 | Attributes |	Category |	Count |
 | --- | --- | --- |
 |	Bob |	Hair |	721 |
@@ -125,6 +127,7 @@ Overall: 7513 in _Hair Category_
 
 
 #### Eye Category:
+
 | Attributes |	Category |	Count |
 | --- | --- | --- |
 |	3D Glasses	| Eye |	1421 |
@@ -145,6 +148,7 @@ Overall: 15691 in _Eye Category_
 
 
 #### Ear Category:
+
 | Attributes |	Category |	Count |
 | --- | --- | --- |
 |	Bajoran Earring |	Ear |	3163 |
@@ -158,6 +162,7 @@ Overall: 13563 in _Ear Category_
 
 
 #### Face Category:
+
 | Attributes |	Category |	Count |
 | --- | --- | --- |
 |	Smile	| Face	| 1262 |
@@ -178,6 +183,7 @@ Overall: 15987 in _Face Category_
 
 
 #### Neck Category:
+
 | Attributes |	Category |	Count |
 | --- | --- | --- |
 |	Necklace |	Neck |	441 |
@@ -194,8 +200,8 @@ Here's the last part of my proposal on colors. I've thought about how to help ba
 My idea is changing the background color or adding a symbol to the background according to the situation of the base types. Whether they're in danger or a stable situation. I found [a good reference](https://www.iucnredlist.org) about this. Unfortunately couldn't find much information about the Nevadensis type. [Vietnamese type](https://www.iucnredlist.org/species/68369199/68369432) has an unknown population trend too. [American](https://www.iucnredlist.org/species/41663/45215410) and [Honey](https://www.iucnredlist.org/species/41629/45210107) types have a decreasing population trend and [Euro](https://www.iucnredlist.org/species/29673/45203002) badgers are in a stable population.
 
 So there are two ways to show this:
-- Set Vietnam and Nevadensis base types' background color to grey (as of unknown). Set American and Honey base types' background color to red-brown (as decreasing) and finally set Euro base types' background color to green as stable.
-- Add a grey question mark symbol at the top left of Vietnam and Nevadensis NFTs. Add a red-brown down icon at the top left of American and Honey NFTs and Add a green dash at the top left of Euro NFTs, such as these pics:
+1- Set Vietnam and Nevadensis base types' background color to grey (as of unknown). Set American and Honey base types' background color to red-brown (as decreasing) and finally set Euro base types' background color to green as stable.
+2- Add a grey question mark symbol at the top left of Vietnam and Nevadensis NFTs. Add a red-brown down icon at the top left of American and Honey NFTs and Add a green dash at the top left of Euro NFTs, such as these pics:
 
 ![image](https://user-images.githubusercontent.com/41538734/132411573-6b6dbafd-6a7f-42c0-9910-1e9474023f41.png)
 ![image](https://user-images.githubusercontent.com/41538734/132411608-268b5ad1-d040-4c22-b575-ca95451a1773.png)
