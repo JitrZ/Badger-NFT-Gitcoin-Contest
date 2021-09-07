@@ -200,7 +200,9 @@ Here's the last part of my proposal on colors. I've thought about how to help ba
 My idea is changing the background color or adding a symbol to the background according to the situation of the base types. Whether they're in danger or a stable situation. I found [a good reference](https://www.iucnredlist.org) about this. Unfortunately couldn't find much information about the Nevadensis type. [Vietnamese type](https://www.iucnredlist.org/species/68369199/68369432) has an unknown population trend too. [American](https://www.iucnredlist.org/species/41663/45215410) and [Honey](https://www.iucnredlist.org/species/41629/45210107) types have a decreasing population trend and [Euro](https://www.iucnredlist.org/species/29673/45203002) badgers are in a stable population.
 
 So there are two ways to show this:
+
 1- Set Vietnam and Nevadensis base types' background color to grey (as of unknown). Set American and Honey base types' background color to red-brown (as decreasing) and finally set Euro base types' background color to green as stable.
+
 2- Add a grey question mark symbol at the top left of Vietnam and Nevadensis NFTs. Add a red-brown down icon at the top left of American and Honey NFTs and Add a green dash at the top left of Euro NFTs, such as these pics:
 
 ![image](https://user-images.githubusercontent.com/41538734/132411573-6b6dbafd-6a7f-42c0-9910-1e9474023f41.png)
@@ -215,3 +217,5 @@ Also, the ability of these things to be changed according to the changes in thei
 Finally, I must thank the Badger community for this opportunity. This is the first big project that I apply my recent learnings in python, so sorry that the code is not clean enough and it took about less than 8 minutes to run completely. I used NumPy random library and pandas library for this code. Also, this is my first GitHub page and Gitcoin submission!
 
 I like collaborative sketching, and even this proposal is the outcome of brainstorming with some talented children. My code is flexible. You can edit the Attributes excel file and add or edit attributes. Also, the parameters in the code could be changed. For example, I didn't know much about already designed series to put it in my code, so I set a variable named _`designed_Series`_ and assigned it to 0, and it can be changed to any number that it is and run the code again to see the new distribution. Any feedback is welcome.
+
+
