@@ -6,7 +6,7 @@ _Note: My idea about colors is to choose randomly at first and let the owner dec
 
 So, here's my idea in detail and how the code helps distribution:
 
-I haven't access to the attributes, so I created a database by myself. The [Attributes Excel file](Attributes.xlsx) is a pure database including 5 Base Types and 63 attributes along with their 6 Categories, Count (that is zero at first), Maximum possible, and Rarity (if the attribute is rare or not).
+I haven't access to the attributes, so I created a database by myself. The [Attributes Excel file](https://github.com/JitrZ/Badger-NFT-Gitcoin-Contest/blob/main/Attributes.xlsx) is a pure database including 5 Base Types and 63 attributes along with their 6 Categories, Count (that is zero at first), Maximum possible, and Rarity (if the attribute is rare or not).
 
 In general, the proposal includes three different distribution ways:
 - The maximum limit for rare things
@@ -31,12 +31,18 @@ Here's the output result of the code for base attributes:
 ## Number of Attributes
 This distribution is a combination of maximum possible and normal distribution.
 
-  - There are 5 NFTs with 0 attribute; Just base types and no attribute.
-  - There are 62 NFTs with 1 attribute (as I have just 63 attribute that one of them is epic!)
-  - There are about 1389 NFTs with 2 attributes (that could be less if during the uniform distribution, rare items reached their max)
-  - There are 4 Epic NFTs with 6 attributes
-  - There are 17 rare NFTs with 5 attributes plus 2856 NFTs (equal to 13.6% of total numbers according to natural distribution)
-  - The remaining belongs to NFTs with 3 and 4 attributes (That is more than 68% of total numbers)
+   - There are 5 NFTs with 0 attribute; Just base types and no attribute.
+
+   - There are 62 NFTs with 1 attribute (as I have just 63 attribute that one of them is epic!)
+
+   - There are about 1389 NFTs with 2 attributes (that could be less if during the uniform distribution, rare items reached their max)
+
+   - There are 4 Epic NFTs with 6 attributes
+
+   - There are 17 rare NFTs with 5 attributes plus 2856 NFTs (equal to 13.6% of total numbers according to natural distribution)
+
+   - The remaining belongs to NFTs with 3 and 4 attributes (That is more than 68% of total numbers)
+
 
 Here's the output result of the code for the number of attributes:
 
@@ -74,7 +80,7 @@ There are 21 rare NFTs (0.1% of total). Consider that there are 6 categories but
 
 The other 17 rare NFTs doesn't have crown and 6 categories but could have items from both head and hair categories. They have at least two jewelry items and the other 3 attributes chose by a uniform distribution from the table above.
 
-The first 21 rows of [NFTs Excel file](NFTs.xlsx) are rare NFTs produced by the code.
+The first 21 rows of [NFTs Excel file](https://github.com/JitrZ/Badger-NFT-Gitcoin-Contest/blob/main/NFTs.xlsx) are rare NFTs produced by the code.
 
 _P.S.:_ The other jewelry items for not rare NFTs (remaining Tiara, Chandelier and Necklace) could be simply gold.
 
@@ -201,9 +207,9 @@ My idea is changing the background color or adding a symbol to the background ac
 
 So there are two ways to show this:
 
-1- Set Vietnam and Nevadensis base types' background color to grey (as of unknown). Set American and Honey base types' background color to red-brown (as decreasing) and finally set Euro base types' background color to green as stable.
+1. Set Vietnam and Nevadensis base types' background color to grey (as of unknown). Set American and Honey base types' background color to red-brown (as decreasing) and finally set Euro base types' background color to green as stable.
 
-2- Add a grey question mark symbol at the top left of Vietnam and Nevadensis NFTs. Add a red-brown down icon at the top left of American and Honey NFTs and Add a green dash at the top left of Euro NFTs, such as these pics:
+2. Add a grey question mark symbol at the top left of Vietnam and Nevadensis NFTs. Add a red-brown down icon at the top left of American and Honey NFTs and Add a green dash at the top left of Euro NFTs, such as these pics:
 
 ![image](https://user-images.githubusercontent.com/41538734/132411573-6b6dbafd-6a7f-42c0-9910-1e9474023f41.png)
 ![image](https://user-images.githubusercontent.com/41538734/132411608-268b5ad1-d040-4c22-b575-ca95451a1773.png)
