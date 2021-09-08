@@ -194,7 +194,7 @@ Overall: 15987 in _Face Category_
 | Attributes |	Category |	Count |
 | --- | --- | --- |
 |	Necklace |	Neck |	441 |
-|	Chain	Neck |	4039 |
+|	Chain	| Neck |	4039 |
 |	Vampire Collar |	Neck |	4114 |
 |	Bow Tie |	Neck |	4077 |
 
@@ -220,7 +220,7 @@ So there are two ways to show this:
 Also, the ability of these things to be changed according to the changes in their population trend in the links given is another great thing.
 
 
-## **Final Words**
+## **Thank You!**
 Finally, I must thank the Badger community for this opportunity. This is the first big project that I apply my recent learnings in python, so sorry that the code is not clean enough and it took about less than 8 minutes to run completely. I used NumPy random library and pandas library for this code. Also, this is my first GitHub page and Gitcoin submission!
 
 I like collaborative sketching, and even this proposal is the outcome of brainstorming with some talented children. My code is flexible. You can edit the Attributes excel file and add or edit attributes. Also, the parameters in the code could be changed. For example, I didn't know much about already designed series to put it in my code, so I set a variable named _`designed_Series`_ and assigned it to 0, and it can be changed to any number that it is and run the code again to see the new distribution. Any feedback is welcome.
